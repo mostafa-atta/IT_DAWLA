@@ -1,30 +1,31 @@
 body{
 	background-color: #0a994f;	
+	padding-top: 80px; 
 }
+
+
 .navbar-inverse{
 	background-color: #edf7f2;
 	border-color: #098645;
 }
 .nav-pills>li>a{
 	color: #0a994f;
-	margin-left: 100px;
+	margin-left: 6em;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
 	background-color: #0a994f;
 	color:  #edf7f2;
 }
-.nav-pills{
-	margin-top: 20px;
-}
+
 .nav-pills>li>a:hover{
 	background-color: #0a994f;
 	color:  #edf7f2;
 }
 .navbar-brand>.image-responsive{
 	background-color: #edf7f2;
-	border-radius: 10px;
-	width: 90px;
-	height: 90px;
+	border-radius: 5px;
+	width: 5em;
+	height: 5em;
 	
 	-webkit-transition: all 0.25s linear;
 	-moz-transition: all 0.25s linear;
@@ -39,6 +40,9 @@ body{
 	-ms-transition: all 0.25s linear;
 	-o-transition: all 0.25s linear;
 	transition: all 0.25s linear;
+}
+.thumbnail{
+	background-color: #edf7f2; 
 }
 article{
 	direction: ltr;
