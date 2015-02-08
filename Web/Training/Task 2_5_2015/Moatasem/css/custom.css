@@ -1,0 +1,45 @@
+body{
+	background-color: #0a994f;	
+}
+.navbar-inverse{
+	background-color: #edf7f2;
+	border-color: #098645;
+}
+.nav-pills>li>a{
+	color: #0a994f;
+	margin-left: 100px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: #0a994f;
+	color:  #edf7f2;
+}
+.nav-pills{
+	margin-top: 20px;
+}
+.nav-pills>li>a:hover{
+	background-color: #0a994f;
+	color:  #edf7f2;
+}
+.navbar-brand>.image-responsive{
+	background-color: #edf7f2;
+	border-radius: 10px;
+	width: 90px;
+	height: 90px;
+	
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-ms-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+}
+.navbar-brand>.image-responsive:hover{
+	margin-top:10px;
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-ms-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+}
+article{
+	direction: ltr;
+}
